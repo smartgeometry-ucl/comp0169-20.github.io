@@ -1,26 +1,25 @@
 ---
-title: Introduction to Java
+title: Autocomplete
 ---
 
-## Introduction to Java
+## {{ page.title }}
 {: .text-gamma }
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
-
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
-
 Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+: **Welcome to CSE 143**
+  : BJP 8
 
 Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
+: **Section**{: .label .label-purple }**Objects**
 
 Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+: **Comparable**
+  : BJP 9.5, 10.2
+: 1. Describe the relationships between client vs. implementer and interface vs. class.
+  1. Define methods that accept instances of the same class as parameters.
+  1. Define classes that implement public interfaces such as `Comparable`.
+: **AST 1 out**{: .label .label-yellow }**Autocomplete**
+
+[Ed](https://us.edstem.org/courses/631/assessments/4332){: .btn .btn-purple }
+[App](https://autocomplete-me.herokuapp.com/){: .btn .btn-outline .ml-1 }
+{: .mt-2 .mb-2 }
