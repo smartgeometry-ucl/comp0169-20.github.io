@@ -16,7 +16,7 @@ Nov 18
 
 Nov 19
 : **Section**{: .label .label-purple }**Guided Project**
-: **AST 7 due**{: .label .label-red }**Text Classifier**
+: **AST 7 due**{: .label .label-red }[**Text Classifier**]({{ site.baseurl }}{% link _lessons/text-classifier.md %})
 
 Nov 20
 : **Users**
