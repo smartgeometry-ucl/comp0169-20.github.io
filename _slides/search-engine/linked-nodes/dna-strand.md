@@ -1,5 +1,5 @@
 ---
-title: Computer memory
+title: DNA Strand
 nav_order: 0
 ---
 
@@ -10,9 +10,11 @@ Say we want to represent a list of the following numbers, `[42, -3, 17, 9]`.
 Contiguous memory
 : | 42 | -3 | 17 | 9 | | | | | |
 
-In an `ArrayIntList`, the `i`-th item in the list is always stored at `elementData[i]`. As a result, `ArrayIntList` can provide fast access to the value at any particular index so methods like `get` are constant-time operations. But maintaining this invariant slows down `removeFront` or remove-in-the-middle, which can be important for applications like modeling and simulating biological data.
+In an `ArrayIntList`, the `i`-th item in the list is always stored at `elementData[i]`. As a result, `ArrayIntList` can provide fast access to the value at any particular index so methods like `get` are constant-time operations. But maintaining this invariant slows down `removeFront` or remove-in-the-middle, which can be important for efficiently modeling and simulating biological data.
 
 Computational biology is an interdisciplinary area of computer science focused on programming computers to understand biological data, such as DNA, the carrier of genetic information in living things. Each **DNA strand** is made up of smaller units called nucleotides. There are four different nucleotides present in DNA: A, C, G, and T. Every human cell has billions of nucleotides, some of which are the same (or at least very similar) across almost all humans while other portions vary across the population. Computer programs can be used to analyze DNA for crimical justice and to simulate biological processes for scientific research.
+
+{{ site.modules | where: 'title', 'DNA Strand' | first }}
 
 What would a list implementation look like if it was not represented in terms of contiguous memory? In **non-contiguous memory**, elements can be stored anywhere. One possibility is shown below.
 
