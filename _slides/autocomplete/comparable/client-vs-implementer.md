@@ -12,6 +12,11 @@ But computer programs, such as the `Balance` class, do not exist in isolation. T
 
 Let's understand this by asking a question: **How exactly does Java print out a $1.50 balance?**
 
+```java
+Balance balance = new Balance(1, 50);
+System.out.println(balance);
+```
+
 1. `System.out` evaluates to an instance of Java's `PrintStream` class that has a `println` method.
 1. Control is transferred to the `println` method in order to print out the balance.
 1. But in 1996, Sun (the original developers behind Java 1.0) could not have known exactly how we would define our `Balance` class. One field, two fields, or something completely different?
