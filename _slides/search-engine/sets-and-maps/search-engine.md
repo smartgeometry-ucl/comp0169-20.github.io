@@ -1,5 +1,5 @@
 ---
-title: Runtime optimization
+title: Search Engine
 nav_order: 0
 ---
 
@@ -25,4 +25,6 @@ On a real dataset containing all of Shakespeare's words, it takes about 3.5 minu
 
 [^1]: This is an overcount since `Scanner` splits tokens on whitespace, so words can include punctuation.
 
-One way to speed up the `countUnique` method is to use a **set** abstract data type instead of a **list** for the same reason why we introduced stacks and queues even though lists have more capabilities. By restricting the public methods (capabilities), implementers can design more efficient data structures to implement each method.
+Web search engines are software systems that organize information on the internet so that users can discover web pages related to a search query. We can implement a basic web search engine by building an index that associates each term (word) to all web pages in which it appears. A search query can be answered by returning the documents that contain all of the terms in a given query.
+
+{{ site.modules | where: 'title', 'Search Engine' | first }}

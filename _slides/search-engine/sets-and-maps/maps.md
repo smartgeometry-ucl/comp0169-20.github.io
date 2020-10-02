@@ -3,8 +3,6 @@ title: Maps
 nav_order: 3
 ---
 
-Web search engines are software systems that organize information on the internet so that users can discover web pages related to a search query. We can implement a basic web search engine by building an index that **maps each term (word) to the set of web pages in which it appears**. A search query can be answered by returning the documents that contain all of the terms in a given query.
-
 The **map** abstract data type associates a set of unique **keys** with a collection of **values**, where each key is associated with a value.
 
 - `containsKey` returns true if the given `key` is in the map.
