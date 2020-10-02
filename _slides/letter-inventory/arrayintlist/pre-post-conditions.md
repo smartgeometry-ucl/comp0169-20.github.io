@@ -17,7 +17,7 @@ public int get(int index) {
 
 Calling `get(-8)` or `get(100000)` would cause an `ArrayOutOfBoundsException`.
 
-A more subtle example would be any index greater than or equal to the size of the list since `get` would return whatever "garbage" value was stored in the vacant array index.
+A more subtle example: any index greater than or equal to the size of the list but still within the bounds of the underlying `elementData` array. `get` would return whatever "garbage" value was stored in the vacant array index.
 </details>
 
 To tell the client about these errors, we'll introduce a documentation format called **pre/post conditions**.
