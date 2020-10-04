@@ -2,10 +2,9 @@
 name: Jordan Yoon-Buck
 role: Teaching Assistant
 email: yoonbuck@uw.edu
-pronouns: he/him
+pronouns: he/they
 photo: jordan-yoon-buck.jpg
 section: DJ
 ipl: 2:30--4:30 PM Monday
 ---
-
-Hi, I'm Jordan! I'm in my third year studying HCDE and math, and I'm from Milwaukee, Wisconsin. When I'm not writing code, you might find me playing piano, enjoying my state-mandated outdoor activity period, or thinking about tech ethics and sustainability.
+Hi! I’m in my fourth year studying HCDE and Math. I’m from Milwaukee, Wisconsin, so I have lots of opinions about cheese. You can usually find me thinking about design, playing piano, writing code, cooking/eating, or giving names to all of my household appliances.
