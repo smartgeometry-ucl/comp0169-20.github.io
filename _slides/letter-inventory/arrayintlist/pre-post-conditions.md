@@ -6,6 +6,7 @@ nav_order: 3
 A **getter** method for `ArrayIntList` elements can be written in a few lines.
 
 ```java
+// Returns the integer at the given index in the list
 public int get(int index) {
     return elementData[index];
 }
@@ -30,7 +31,7 @@ Postconditions
 
 ```java
 // pre : 0 <= index < size()
-// post: Returns the element at the given index
+// post: Returns the integer at the given index in the list
 public int get(int index) {
     return elementData[index];
 }

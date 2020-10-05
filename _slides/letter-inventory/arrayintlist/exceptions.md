@@ -7,7 +7,7 @@ We can check preconditions by adding an `if` statement. In order to stop the pro
 
 ```java
 // pre : 0 <= index < size() (throws IllegalArgumentException if not)
-// post: Returns the element at the given index
+// post: Returns the integer at the given index in the list
 public int get(int index) {
     if (index < 0 || index >= size) {
         throw new IllegalArgumentException();

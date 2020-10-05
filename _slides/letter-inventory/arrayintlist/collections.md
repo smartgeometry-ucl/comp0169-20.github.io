@@ -8,6 +8,7 @@ Letter inventories are a specific type of collection. A **collection** is an obj
 To help us learn how to design a letter inventory, we'll study how Java implements a popular collection type called `ArrayList` by building a simplified `ArrayIntList` class. An `ArrayIntList` can be used to store a **list** (ordered sequence) of integer data.
 
 ```java
+// An ArrayIntList stores a list of integers
 public class ArrayIntList {
     private int[] elementData;
     private int size;
@@ -16,6 +17,12 @@ public class ArrayIntList {
     public ArrayIntList() {
         elementData = new int[10];
         size = 0;
+    }
+
+    // Appends the given value to the end of the list
+    public void add(int value) {
+        elementData[size] = value;
+        size += 1;
     }
 }
 ```
